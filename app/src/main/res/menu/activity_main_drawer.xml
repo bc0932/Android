@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_statistic"
+            android:icon="@drawable/ic_action_line_chart"
+            android:title="Statistika porabe" />
+        <item
+            android:id="@+id/nav_calc_consumpt"
+            android:icon="@drawable/ic_ev_station"
+            android:title="Izračun porabe"
+            android:showAsAction="collapseActionView" />
+        <item
+            android:id="@+id/nav_travel_expense"
+            android:icon="@drawable/ic_confirmation_number"
+            android:title="Strošek poti" />
+        <item
+            android:id="@+id/nav_range"
+            android:icon="@drawable/ic_drive_eta"
+            android:title="Doseg" />
+        <item
+            android:id="@+id/nav_fueling"
+            android:icon="@drawable/ic_action_tag"
+            android:title="Vnos natočenega goriva" />
+
+    </group>
+
+    <item android:title="Skupna raba">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Deli" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Pošlji" />
+        </menu>
+    </item>
+
+</menu>
